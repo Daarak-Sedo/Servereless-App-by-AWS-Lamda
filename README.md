@@ -30,7 +30,7 @@
 
 # Serverless Lamda App Architecture -
 
-      Video Link - https://youtu.be/FVfxsMseYq8
+    #  Video Link - https://youtu.be/FVfxsMseYq8
 
 ![Serverless App Backend Architecture](https://user-images.githubusercontent.com/132264068/236137241-c142c7af-9702-4e0c-9f0c-771e5ed6d3b8.png)
 
