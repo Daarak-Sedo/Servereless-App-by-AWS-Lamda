@@ -26,3 +26,12 @@
 2- Data processing pipeline: You can use AWS Lambda to process data from various sources, such as S3 buckets or Kinesis data streams. Your Lambda function can perform various data processing tasks, such as filtering, transforming, and aggregating data.
 
 3- Serverless web application: You can use AWS Lambda to build a serverless web application that handles user requests and processes data. Your Lambda function can interact with other AWS services, such as DynamoDB or S3, to store and retrieve data.
+
+
+# Serverless Lamda App Architecture -
+
+      Video Link - https://youtu.be/FVfxsMseYq8
+
+![Serverless App Backend Architecture](https://user-images.githubusercontent.com/132264068/236137241-c142c7af-9702-4e0c-9f0c-771e5ed6d3b8.png)
+
+
