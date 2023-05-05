@@ -19,6 +19,8 @@
 
 9- Finally, you can configure your function's settings, such as its memory allocation and timeout, by clicking on the "Configuration" tab.
 
+10-  Template file (TEMPLATE.YML) will be Starting Path/File ,End Point of API,
+
 # Example -
 
 1- RESTful API: You can create a RESTful API using AWS API Gateway and AWS Lambda. Your Lambda function can process the API requests and return responses, making it a scalable and cost-effective way to build APIs.
