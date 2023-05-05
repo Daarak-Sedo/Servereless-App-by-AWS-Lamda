@@ -57,7 +57,7 @@ This command will package your Lambda function and its dependencies in a deploym
 
 . Start the local Lambda server: After building the Lambda function, you can start the local Lambda server by running the following command in your terminal:
 
- #    sam local start-api
+ #   sudo sam local start-api
      
 This command will start the local Lambda server and listen for incoming requests on port 3001 by default.
 
