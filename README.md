@@ -37,6 +37,8 @@
 
 # how to run lamda server in local
 
+# 1-  Installing the AWS SAM CLI - for local/system development  ( Demo Link - https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+
 
 1-AWS Lambda is a cloud-based serverless computing platform, but you can use tools like the AWS SAM CLI (Serverless Application Model Command Line       Interface) or the local development tool called "LocalStack" to emulate the AWS Lambda environment on your local machine.
 
