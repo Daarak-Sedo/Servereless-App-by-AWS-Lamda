@@ -35,3 +35,37 @@
 ![Serverless App Backend Architecture](https://user-images.githubusercontent.com/132264068/236137241-c142c7af-9702-4e0c-9f0c-771e5ed6d3b8.png)
 
 
+# how to run lamda server in local
+
+
+1-AWS Lambda is a cloud-based serverless computing platform, but you can use tools like the AWS SAM CLI (Serverless Application Model Command Line       Interface) or the local development tool called "LocalStack" to emulate the AWS Lambda environment on your local machine.
+
+. Here are some steps you can follow to run a Lambda server in a local environment using the AWS SAM CLI:
+
+. Install the AWS SAM CLI: You can download and install the AWS SAM CLI for your operating system by following the instructions provided in the official AWS documentation.
+
+. Create a Lambda function: You can create a simple Lambda function by writing your code in a file named app.js and placing it in a folder named my-function. You can also define the function's input and output in a file named template.yaml.
+
+. Build the Lambda function: To build the Lambda function, navigate to the directory containing the template.yaml file and run the following command in your terminal:
+
+. sam build
+This command will package your Lambda function and its dependencies in a deployment package that can be run in the local environment.
+
+. Start the local Lambda server: After building the Lambda function, you can start the local Lambda server by running the following command in your terminal:
+
+     sam local start-lambda
+     
+This command will start the local Lambda server and listen for incoming requests on port 3001 by default.
+
+. Invoke the Lambda function: You can invoke the Lambda function by sending an HTTP request to the local Lambda server using tools like cURL or Postman. For example, you can invoke the function by running the following command in your terminal:
+         curl http://localhost:3001/2015-03-31/functions/my-function/invocations -d '{"key1":"value1", "key2":"value2", "key3":"value3"}'
+         
+This command will send a POST request to the local Lambda server with a JSON payload containing the input for the Lambda function.
+
+. Verify the output: After invoking the Lambda function, you should see the output of the function in the response from the local Lambda server in your terminal.
+
+
+
+
+
+
