@@ -48,17 +48,18 @@
 
 . Build the Lambda function: To build the Lambda function, navigate to the directory containing the template.yaml file and run the following command in your terminal:
 
-. sam build
+# sam build
 This command will package your Lambda function and its dependencies in a deployment package that can be run in the local environment.
 
 . Start the local Lambda server: After building the Lambda function, you can start the local Lambda server by running the following command in your terminal:
 
-     sam local start-lambda
+ #    sam local start-lambda
      
 This command will start the local Lambda server and listen for incoming requests on port 3001 by default.
 
 . Invoke the Lambda function: You can invoke the Lambda function by sending an HTTP request to the local Lambda server using tools like cURL or Postman. For example, you can invoke the function by running the following command in your terminal:
-         curl http://localhost:3001/2015-03-31/functions/my-function/invocations -d '{"key1":"value1", "key2":"value2", "key3":"value3"}'
+  #       curl http://localhost:3001/2015-03-31/functions/my-function/invocations -d 
+         
          
 This command will send a POST request to the local Lambda server with a JSON payload containing the input for the Lambda function.
 
