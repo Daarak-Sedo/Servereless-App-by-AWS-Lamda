@@ -17,6 +17,7 @@ cognito.listUsers(listUsersParams, (error, data) => {
   }
 });
 
+
 // Example: Admin create user in a user pool
 const createUserParams = {
   UserPoolId: userPoolId,
@@ -27,6 +28,7 @@ const createUserParams = {
     // Add any additional user attributes here
   ],
 };
+
 
 cognito.adminCreateUser(createUserParams, (error, data) => {
   if (error) {

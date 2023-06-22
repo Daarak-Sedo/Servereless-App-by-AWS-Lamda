@@ -19,6 +19,7 @@ const tableName = 'YOUR_DYNAMODB_TABLE_NAME';
 const cognitoUserPoolId = 'YOUR_COGNITO_USER_POOL_ID';
 const username = 'USERNAME_TO_DELETE';
 
+
 // Delete the user record from DynamoDB
 const dynamoParams = {
   TableName: tableName,

@@ -1,6 +1,5 @@
 # Serverless-App-by-Aws-Lamda
 
-
 1- Log in to your AWS Console and navigate to the Lambda service.
 
 2- Click on the "Create function" button and choose "Author from scratch" as your blueprint.
